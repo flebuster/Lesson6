@@ -1,0 +1,13 @@
+@font-face {
+     font-family: 'Trajan Pro Bold' ;
+     font-weight: 700;
+     src: local("Trajan Pro Bold"), url(./trajan_pro.woff) format( woff);
+     font-weight: bold;
+   }
+
+   /* @font-face {
+     font-family: 'Trajan Pro Light' ;
+     font-weight: 300;
+     src: local("Trajan Pro Light"), url(./trajan_pro.woff) format( woff);
+     font-weight: bold;
+   } */
