@@ -302,7 +302,137 @@ grid-row: 3/4;
 /* .container4 :nth-child(1){
     background-color: #f8f8f8;
 } */
+.container5{
+    margin-top: 220px;
+    margin-bottom: 227px;
+    background-image: url( '/images/two.png');
+    background-repeat: no-repeat;
+   
+    background-size: contain;
+    height: 650px;
+}
+.container5 .head_text{
+    margin-left: 785px;
+    margin-top: -70px;
+}
+.container5 .head_text h4{
+    /* text-align: center; */
+    font-size: 48px;
+    color: #000000;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.container5 .head_text p{
+    /* text-align: center; */
+    font-size: 24px;
+    color: #333333;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    /* margin-bottom: 23px; */
+    line-height: 1.5;
+}
+.container5 .icon svg{
+    margin-left:777px;
+    color: #cca438;
+    font-size: 42px;
+    margin-bottom: 67px;
+    margin-top: 36px;
+}
+.container5 .icon svg:first-child{
+    margin-left: 790px;
+}
+.container5 .main_text{
+    margin-left:760px;
+    margin-top: 28px;
+}
+.container5 .main_text span{
+    font-size: 22px;
+    font-family:'Ubuntu', sans-serif;
+    color:#000000;
+    margin-top: 60px;
+}
+.container5 .main_text p{
+    font-size: 14px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.container5 .btn{
+    margin-left: 782px;
+    margin-top: 16px;
+}
+.container5 .btn a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 24px 88px;
+     background-color: #e5e1e1;
+     border-radius: 30px;
+}
 
+.container6{
+    background-image:url( '/images/background6.png');
+}
+.container6 h2{
+    padding-top: 140px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.container6 .first_block, .second_block, .third_block {
+    text-align: center;
+    position: relative;
+}
+.container6 .first_block h3, .second_block h3, .third_block h3{
+    font-size: 100px;
+    color: #c89d28;
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+.container6 .first_block span, .second_block span, .third_block span{
+    font-size: 30px;
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.container6 .first_block p, .second_block p, .third_block p{
+    margin-top: 40px;
+    margin-bottom:65px;
+    font-size: 14px;
+    color: #999999;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.container6 .btn1, .btn2, .btn3{
+    position: relative;
+  
+}
+
+
+
+.container6 .btn1 a, .btn2 a, .btn3 a{
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: #333333;
+        text-transform: uppercase;
+        padding: 20px 70px;
+         background-color: #ffffff;
+         border-radius: 30px;
+}
 .container7{
     background-color: #e8e9ea;
     height: 1080px;
@@ -328,8 +458,8 @@ grid-row: 3/4;
 .container7 .grid_box .items1{
     display: grid;
     background-image: url('/images/image7_1.png');
-    /* justify-content: center;
-    align-items: center; */
+   position: relative;
+
 }
 
 
@@ -342,6 +472,7 @@ grid-row: 3/4;
     font-weight: 300;
     font-size: 30px;
     color: #ffffff;
+    margin-top: 270px;
 }
 .container7 .grid_box .items1 h3{
     text-align: center;
@@ -350,13 +481,14 @@ grid-row: 3/4;
     font-size: 11px;
     color: #ffffff;
     text-transform: uppercase;
-    margin-top: -140px;
+    margin-top: -110px;
 }
 .container7 .grid_box .items1 span{
     color:#8a6f28;
 }
 
 .container7 .grid_box .items2_box{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
@@ -397,11 +529,12 @@ grid-row: 3/4;
     margin-top: 222px;
 }
 
-.container7 .grid_box .items1 .btn{
+/* .container7 .grid_box .items1 .btn{
     margin-top: 15px;
     margin-left: 10px;
-}
-.container7 .grid_box .items1 .btn a{
+} */
+.container7 .grid_box .items1 a{
+    position: absolute;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -410,14 +543,16 @@ grid-row: 3/4;
     text-transform: uppercase;
     padding: 9px 17px;
      background-color: #8d7431;
-     /* border-radius: 30px; */
+     border-radius: 30px;
+     top: 10px;
+     left: 10px;
 
 }
 
 
-.container7 .grid_box .items2_box span{
+.container7 .grid_box .items2_box a{
     /* display: block; */
-    position: relative;
+    
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -429,10 +564,21 @@ grid-row: 3/4;
      border-radius: 14px;
 }
 
+.container7 .grid_box .items2_box .items2_1, .items2_2, .items2_3, .items2_4{
+    position: relative;
+}
+.container7 .grid_box .items2_box .items2_1 a, .items2_2 a, .items2_3 a, .items2_4 a{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
+.container7 .grid_box .items2_box .items2_2 .items2_2_2 a{
+    left: 100px;
+}
 .container7 .btn{
     margin-left: 490px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .container7 .btn a{
     text-decoration: none;
@@ -445,3 +591,83 @@ grid-row: 3/4;
      background-color: #ffffff;
      border-radius: 30px;
 }
+
+.container8{
+    margin-top:200px;
+    margin-bottom: 200px;
+    /* background-color: #fafafa; */
+}
+.container8 .left_content{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #000000;
+}
+
+.container8 .left_content h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.container8 .left_content p{
+    font-size: 16px;
+}
+
+.container8 .left_content p .in_weight{
+    font-weight: 500;
+}
+
+.container8 .left_icons svg{
+    color: #cca438;
+    font-size: 47px;
+    /* margin-top: 15px; */
+    margin-bottom: 95px;
+    margin-left: 25px;
+}
+.container8 .left_icons svg:first-child{
+    margin-top: 15px;
+}
+
+.container8 .right_text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container8 .right_text span{
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+}
+
+.container8 .right_text p{
+    font-weight: 300;
+    color: #333333;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+@media (max-width: 1200px){
+    .container8 .right_text span{
+        font-size: 20px;
+    }
+    .container8 .left_icons svg{
+        /* margin-top: 10px; */
+        margin-left: 15px;
+        margin-bottom: 93px;
+    }
+    .container8 .left_icons svg:first-child{
+        margin-top: 10px;
+}
+
+@media(max-width: 992px){
+    .container8 .left_icons svg{
+        
+        margin-left: 0px;
+        margin-bottom: 185px;
+    }
+}
+
+@media(max-width: 576px){
+    .container8 .left_icons svg{
+        margin-bottom: 95px;
+        display: block;
+    }
+} 
