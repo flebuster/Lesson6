@@ -746,6 +746,7 @@ grid-row: 3/4;
     }
     .container8 .left_icons svg:first-child{
         margin-top: 10px;
+    }
 }
 
 @media(max-width: 992px){
@@ -760,3 +761,210 @@ grid-row: 3/4;
         display: block;
     }
 } 
+
+.container9{
+    background-image: url('/images/next_fon.png');
+    height: 100vh;
+    max-height: 1080px;
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container9 h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 250px;
+}
+.container9 .item{
+    text-align: center;
+    margin-top: 115px;
+}
+.container9 .item span{
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #c89d28;
+    padding-top: 250px;
+}
+.container9 .item p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dfdfdf;
+    padding-top: 30px;
+}
+.container9 .discription{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #999999;
+    width: 42%;
+    margin:0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+@media (max-width:992px){
+    .container9 .item span{
+        font-size: 65px;
+    }
+    .container9 .discription{
+        margin-top: 85px;
+    }
+}
+@media (max-width:768px){
+    .container9 .item {
+        margin-top: 89px;
+    }
+    .container9 h3{
+        padding-top: 100px;
+    }
+    .container9 .discription{
+        width: 65%;
+        margin-top: 25px;
+    }
+}
+@media (max-width:576px){
+    .container9 .item span{
+        font-size: 50px;
+        }
+    .container9 .item{
+        margin-top: 60px;
+            }
+    .container9 h3{
+        padding-top: 50px;
+        }
+    .container9 .discription{
+        width: 80%;
+        margin-top: 80px;
+        font-size: 20px;
+        }
+}  
+
+.container10{
+    background-image:url('/images/background_10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 44vh;
+    max-height: 440px;
+    min-height: 400px;
+    /* position: relative; */
+}
+.container10 h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+}
+.container10 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 30px;
+    width: 60%;
+    margin:0 auto;
+}
+.container10 .btn{
+    margin-top: 30px;
+}
+.container10 .btn a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #414141;
+    text-transform: uppercase;
+    padding: 20px 70px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+@media (max-width:992px){
+    .container10 p{
+        width: 70%;
+    }
+}
+@media (max-width: 578px){
+    .container10 h3{
+    padding-top: 70px;
+    }
+}
+
+footer {
+    background-color: #0d0d0d;
+    height: 82vh;
+    max-height: 820px;
+}
+footer .center{
+    max-width: 1000px;
+}
+footer .grid_box{
+    display: grid;
+    grid-template-columns: 453px 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 14em;
+    padding-top: 170px;
+}
+footer .grid_box .item_1_2_icons{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 238px;
+}
+
+footer .grid_box .box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 2em;
+}
+footer .grid_box .item_1_1 h5, .item_2_1 h5, .item_2_2 h5, .item_2_3 h5{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+footer .grid_box .item_1_1 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 45px;
+}
+
+footer .grid_box .item_2_1 p, .item_2_2 p, .item_2_3 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 2.5;
+}
+
+footer .grid_box .item_1_2_icons svg{
+    color: #666666;
+    font-size: 15px;
+    display: flex;
+    
+}
+
+footer .grid_box .item_1_3 p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    margin-top: 170px;
+}
+footer .grid_box .item_1_3 span{
+    color: #8d7431;
+}
+
+@media(max-width:1024px){
+    
