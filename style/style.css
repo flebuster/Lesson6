@@ -263,7 +263,6 @@ grid-row: 3/4;
     margin-top: 220px;
     margin-bottom: 227px;
     background-image: url( '/images/two.png');
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
     height: 650px;
@@ -275,12 +274,13 @@ grid-row: 3/4;
 .container5 .content{
    display: flex;
    flex-direction: column;
+   align-items: flex-start;
 }
 .container5 .head_text{
     margin-top: -70px;
 }
 .container5 .head_text h4{
-    /* text-align: center; */
+  
     margin-bottom: 45px;
     font-size: 48px;
     color: #000000;
@@ -288,29 +288,22 @@ grid-row: 3/4;
     font-weight: 300;
 }
 .container5 .head_text p{
-    /* text-align: center; */
     font-size: 24px;
     color: #333333;
     font-family:'Ubuntu', sans-serif;
     font-weight: 300;
-    /* margin-top: 40px; */
-    /* margin-bottom: 23px; */
     line-height: 1.2;
 }
 .container5 .column_1, .column_2, .column_3{
     display: inline-flex;
-    margin-top: -28px;
-    margin-bottom: -28px;
+    margin-top: 20px;
 }
-
-
 .container5 .icon svg{
     color: #cca438;
     font-size: 42px;
     margin-right: 17px;
     margin-top: 6px;
 }
-
 
 .container5 .column_1 .main_text{
     margin-left: 14px;
@@ -330,7 +323,7 @@ grid-row: 3/4;
     
 }
 .container5 .btn{
-    margin-top: 16px;
+    margin-top: 30px;
 }
 .container5 .btn a{
     text-decoration: none;
@@ -339,33 +332,110 @@ grid-row: 3/4;
     font-size: 14px;
     color: #333333;
     text-transform: uppercase;
-    padding: 24px 88px;
+    padding: 20px 90px;
      background-color: #e5e1e1;
      border-radius: 30px;
 }
 
-/* @media (max-width: 1200px){
+@media (max-width: 1200px){
     .container5{
-    height: 488px;
+    height: 500px;
     }
     .container5 .head_text h4{
-        font-size: 38px;
+        margin-bottom: 40px;
+        font-size: 46px;
     }
     .container5 .head_text p{
-    font-size: 18px;
-    margin-top: 25px;
+        font-size: 22px;
     }
     .container5 .icon svg{
-        font-size: 30px;
-        margin-bottom: 55px;
+        font-size: 40px;
+    }
+    .container5 .main_text span{
+        font-size: 20px;
     }
     .container5 .main_text p{
-        margin-bottom: 27px;
+        font-size: 14px;
+        margin-top: 25px;
     }
     .container5 .btn a{
-        padding: 17px 70px;
+        font-size: 12px;
+        padding: 16px 62px;
+    } 
+} 
+@media (max-width: 1024px){
+.container5 {
+    height: 409px;
     }
-} */
+    .container5 .head_text {
+        margin-top: -126px;
+    }
+}
+@media (max-width: 992px){
+    .container5{
+        height: 418px;
+    }
+    .container5 .head_text h4 {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .container5 .head_text p {
+        font-size: 19px;
+    }
+    .container5 .column_1, .column_2, .column_3{
+        margin-top: 6px;
+    }
+    .container5 .icon svg {
+        font-size: 32px;
+    }
+    .container5 .main_text span {
+        font-size: 18px;
+    }
+    .container5 .main_text p {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    .container5 .btn a {
+        font-size: 10px;
+    }
+}
+@media(max-width: 768px){
+    .container5 {
+        height: 320px;
+    }
+    .container5 .btn {
+    margin-top: 0px;
+    }
+    .container5 .btn a {
+    padding: 13px 92px;
+    }
+}
+@media(max-width: 578px){
+    .container5{
+        height: 472px;
+        background-image: none;
+    }
+    .container5 .row{
+        justify-content: center;
+    }
+    .container5 .head_text p {
+        font-size: 15px;
+    }
+    .container5 .head_text h4 {
+        margin-bottom: 22px;
+        font-size: 32px;
+    }
+    .container5 .main_text span {
+        font-size: 20px;
+    }
+    .container5 .main_text p {
+        font-size: 12px;
+        margin-top: 11px;
+    }
+    .container5 .btn a {
+        padding: 13px 40px;
+        }
+}
 
 
 .container6{
@@ -749,6 +819,7 @@ grid-row: 3/4;
     background-image:url('/images/background_10.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 44vh;
     max-height: 440px;
     min-height: 400px;
@@ -786,6 +857,7 @@ grid-row: 3/4;
     background-color: #ffffff;
     border-radius: 30px;
 }
+
 @media (max-width:992px){
     .container10 p{
         width: 70%;
@@ -794,6 +866,11 @@ grid-row: 3/4;
 @media (max-width: 578px){
     .container10 h3{
     padding-top: 70px;
+    }
+}
+@media (max-width: 333px){
+    .container5 .btn a {
+        padding: 13px 30px;
     }
 }
 
@@ -807,9 +884,9 @@ footer .center{
 }
 footer .grid_box{
     display: grid;
-    grid-template-columns: 453px 1fr;
-    grid-template-rows: 400px;
-    grid-gap: 14em;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-rows: 200px;
+    grid-gap: 12em;
     padding-top: 170px;
 }
 footer .grid_box .item_1_2_icons{
@@ -817,12 +894,12 @@ footer .grid_box .item_1_2_icons{
     justify-content: space-between;
     padding-right: 238px;
 }
-
 footer .grid_box .box2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: 200px;
     grid-gap: 2em;
+    margin-right: 20px;
 }
 footer .grid_box .item_1_1 h5, .item_2_1 h5, .item_2_2 h5, .item_2_3 h5{
     font-family: 'Ubuntu', sans-serif;
@@ -846,7 +923,7 @@ footer .grid_box .item_2_1 p, .item_2_2 p, .item_2_3 p{
     font-weight: 300;
     font-size: 14px;
     color: #5a5a5a;
-    line-height: 2.5;
+    line-height: 1.9;
 }
 
 footer .grid_box .item_1_2_icons svg{
@@ -855,18 +932,63 @@ footer .grid_box .item_1_2_icons svg{
     display: flex;
     
 }
-
-footer .grid_box .item_1_3 p{
+footer .i i{
+    display: block;
+	
+	height: 2px;
+	background: #1d1d1d;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+footer .item_1_3 p{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 11px;
     color: #5a5a5a;
     text-transform: uppercase;
-    margin-top: 170px;
+    margin-top: 60px;
 }
-footer .grid_box .item_1_3 span{
+footer .item_1_3 span{
     color: #8d7431;
 }
 
-/* @media(max-width:1024px){
-     */
+
+@media (max-width:1200px){
+    footer .grid_box {
+        grid-gap: 8em;
+        margin-left: 51px;
+        }
+    footer .i i{
+        margin-left: 51px;
+    }
+    footer .item_1_3{
+        margin-left: 51px;
+    }
+}
+
+@media (max-width: 1024px){
+    /* footer .grid_box {
+            grid-gap: 7em;
+           
+    } */
+    footer .grid_box .box2 {
+        grid-gap: 0em;
+    }
+}
+@media (max-width: 979px){
+    footer .grid_box {
+    grid-gap: 4em;
+    }
+}
+@media (max-width: 915px){
+    footer .grid_box {
+        padding-top: 85px;
+    }
+    footer .i i {
+        
+        margin-top: 10px;
+    }
+
+}
+
+
