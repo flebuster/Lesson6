@@ -1,0 +1,47 @@
+.container6 {
+  background-image: url("/images/background6.png");
+}
+
+.container6 .row {
+  padding-bottom: 350px;
+}
+
+.container6 h2 {
+  color: #ffff;
+}
+
+.container6 .first_block span, .second_block span, .third_block span {
+  color: #ffff;
+  padding-top: 140px;
+  padding-bottom: 150px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.container6 .first_block p, .second_block p, .third_block p {
+  color: #999999;
+}
+
+.container6 .first_block h3, .second_block h3, .third_block h3 {
+  color: #c89d28;
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.container6 a {
+  background-color: #ffff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  padding: 20px 70px;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=style1.css.map */

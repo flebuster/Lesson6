@@ -1,0 +1,54 @@
+.container6{
+    background-image: $background6;
+}
+.container6{
+    .row {
+    padding-bottom: 350px;
+    }
+}
+.container6 {
+    h2{
+    color: $white_color;
+    }
+}
+.container6 .first_block, .second_block, .third_block{
+    span{
+    color: $white_color;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    }
+}
+.container6 .first_block, .second_block, .third_block {
+    p{
+    color: $grey_color;
+    }
+
+}
+.container6 .first_block , .second_block , .third_block {
+    h3{
+    color: $gold_color;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    }
+}
+
+.container6 {
+    a{
+    background-color: $white_color;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: $darkgrey_color;
+    text-transform: uppercase;
+    padding: 20px 70px;
+    border-radius: 30px;
+    }
+}
