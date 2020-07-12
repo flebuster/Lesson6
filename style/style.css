@@ -108,10 +108,12 @@ header .btn{
     /* justify-content: space-around; */
 }
 .container2 .text_and_btn{
+    position: relative;
     margin-top: 330px;
     margin-left: 230px;
 }
 .container2 span{
+    position: absolute;
     font-family: 'Ubuntu', sans-serif;    
     font-weight: lighter; 
     /* вопрос */
@@ -119,6 +121,7 @@ header .btn{
     color: #222222;
 }
 .container2 .btn2{
+    position: absolute;
     margin-top: 80px;
     margin-left: 192px;
 }

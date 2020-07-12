@@ -44,4 +44,23 @@
   padding: 20px 70px;
   border-radius: 30px;
 }
+
+@media (max-width: 992px) {
+  header .show {
+    display: block;
+  }
+  header .burger {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ffff;
+  }
+  header .burger i {
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: red;
+    margin: 3px;
+  }
+}
 /*# sourceMappingURL=style1.css.map */
