@@ -1,0 +1,53 @@
+@media (max-width: 320px) {
+  .container7 h1 {
+    padding-top: 38px;
+    font-size: 39px;
+  }
+  .container7 .btn {
+    margin-left: 83px;
+    margin-top: 5px;
+  }
+  .container7 .btn a {
+    font-size: 9px;
+    padding: 10px 33px;
+  }
+  .container7 .grid_box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 320px;
+        grid-template-rows: 320px;
+    grid-gap: 1em;
+    padding-top: 0px;
+  }
+  .container7 .grid_box .items1 a {
+    font-size: 6px;
+    padding: 4px 14px;
+  }
+  .container7 .grid_box .items1 h2 {
+    font-size: 13px;
+    margin-top: 118px;
+  }
+  .container7 .grid_box .items1 h3 {
+    font-size: 8px;
+    margin-top: -38px;
+  }
+  .container7 .grid_box .items2_box {
+    -ms-grid-rows: 290px 280px;
+        grid-template-rows: 290px 280px;
+    grid-gap: 1em;
+  }
+  .container7 .grid_box .items2_box a {
+    font-size: 6px;
+    padding: 4px 14px;
+  }
+  .container7 .grid_box .items2_box p {
+    font-size: 11px;
+    width: 91%;
+  }
+  .container7 .grid_box .items2_box .items2_2 .items2_2_2 a {
+    left: 77px;
+  }
+}
+/*# sourceMappingURL=con7_media.css.map */

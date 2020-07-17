@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="scss/style1.css"> 
+    <Link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
  </head>
 <body>
     <div class="wrapper">
@@ -35,11 +37,12 @@
                 <a href="#">Buy now</a>
             </div>    
         </header>
-        <section class="container2">
-           <div class="text_and_btn"> 
-            <span>We Design Experiences.</span>
-            <div class="btn2">
-                <a href="#">Start now</a>
+        <section class="container2 parallax-window" id="container2">
+            <div class="text_and_btn">
+                <span>We Design Experiences.</span>
+                <div class="btn2">
+                    <a href="#">Start now</a>
+                    </div>
             </div>
         </section>
         <section class="container3">
@@ -93,7 +96,7 @@
             <div class="item">
                 <img src="images/image2.png" alt="image2">
             </div>
-            <div class="item">
+            <div class="item5">
                 <span>What we do</span>
                 <i></i>
                 <p>Add as many language packs as you want, to
@@ -293,7 +296,28 @@
                 </div>
             </div>
         </section>
-        <section class="container10">
+        <!-- <section class="container10">
+            <div class="center">
+                <h3>Working with world's best companies.</h3>
+                    <div class="container10_box">
+                        <div><img src="./images/image10_1.png" alt="1"></div>
+                        <div><img src="./images/image10_2.png" alt="2"></div>
+                        <div><img src="./images/image10_3.png" alt="3"></div>
+                        <div><img src="./images/image10_4.png" alt="4"></div>
+                        <div><img src="./images/image10_5.png" alt="5"></div>
+                    </div>
+                <div class="owl-carousel">
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                    <div> Your Content </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="container11">
                 <h3>Get in Touch With Us.</h3>
                 <p>Marketing to mobile-first users has arrived and must be taken seriously.</p>
             <div class="container">
@@ -365,5 +389,26 @@
     new WOW().init();
     </script>
     <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+            $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+    </script>
 </body>
 </html>

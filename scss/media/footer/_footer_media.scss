@@ -1,0 +1,30 @@
+@media (max-width: 450px){
+    footer {
+        .i{  
+            i{
+            margin-left: 36px;
+            }
+        }
+        .grid_box{
+            margin-left: 37px;
+            .item_1_1 p {
+                width: 73%;
+            }
+        }
+    }
+}
+@media (max-width: 375px){
+    footer {
+        .i{  
+            i{
+            margin-left: 11px;
+            }
+        }
+        .grid_box {
+            margin-left: 12px;
+            .box2 {
+            margin-right: 37px;
+            }
+        }
+    }
+}

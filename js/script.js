@@ -10,5 +10,14 @@ burg.onclick = function(){
 };
 
 function addMenu(){
-    document.getElementsById('menu').classList.toggle('show');
+    document.getElementById('menu').classList.toggle('show');
 }
+
+
+$(window).scroll(function(){
+    parallax();
+  })
+  function parallax() {
+    var wScroll = $(window).scrollTop();
+    $('.parallax-window').css('background-position','right '+(wScroll*0.75)+'px')
+  }

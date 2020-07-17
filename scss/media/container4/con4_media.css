@@ -1,0 +1,84 @@
+@media (max-width: 1320px) {
+  .container4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .container4 .item6 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    background-image: none;
+    background-color: black;
+  }
+  .container4 .item6 span {
+    margin-top: 20%;
+  }
+  .container4 .item7 {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 880px) {
+  .container4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .container4 .item {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .container4 .item6 {
+    background-image: url("/images/image3.png");
+    background-size: 100% 100%;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 2;
+    grid-row: 7/9;
+  }
+  .container4 .item7 {
+    background-image: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
+  }
+  .container4 .item span, .container4 .item5 span, .container4 .item6 span, .container4 .item7 span {
+    font-size: 30px;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .container4 .item i, .container4 .item5 i, .container4 .item6 i, .container4 .item7 i {
+    margin-left: 25%;
+  }
+  .container4 .item p, .container4 .item5 p, .container4 .item6 p, .container4 .item7 p {
+    margin-left: 25%;
+  }
+  .container4 .item7 i {
+    margin-left: 25%;
+  }
+  .container4 .item7 p {
+    width: 50%;
+  }
+  .container4 .item6 span {
+    margin-top: 70%;
+  }
+}
+/*# sourceMappingURL=con4_media.css.map */
